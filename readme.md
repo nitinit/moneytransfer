@@ -9,6 +9,12 @@ Each account is assumed to have initial 200 euro.
 APIs
 To money transfer-
 - POST /moneyTransfer/
+      {
+        "id": 42,
+        "from": "Zaphod",
+        "to": "Alisa",
+        "amount": "100"
+      }
 - GET /account/{accountId}
 
 Future extension-
