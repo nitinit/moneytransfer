@@ -9,6 +9,7 @@ Each account is assumed to have initial 200 euro.
 APIs
 To money transfer-
 - POST /moneyTransfer/
+  BODY
       {
         "id": 42,
         "from": "Zaphod",
