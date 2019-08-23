@@ -12,4 +12,5 @@ POST /moneyTransfer/
 GET /account/{accountId}
 
 Future extension-
-Here each AccountActor use event-sourcing to persist all debit/credit events.
+- Handling of accoount balance consistency between money transfer i.e. managing transactions by introducing intermediate status as RESERVED and COMPLETED status in account actor with timeout/failover scenarios.
+- Here each AccountActor can use event-sourcing to persist all debit/credit events.
